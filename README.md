@@ -1,4 +1,4 @@
-# wowreally - Call `IsWow64Process()` for the current process
+# wowreally - See what `IsWow64Process` says
 
 This is a tiny Rust program for Windows that calls [`IsWow64Process`](https://learn.microsoft.com/en-us/windows/win32/api/wow64apiset/nf-wow64apiset-iswow64process) on the current process.
 
