@@ -1,3 +1,5 @@
+//! Shows what `IsWow64Process` returns for the current process.
+
 use windows::core::Result;
 use windows::Win32::Foundation::BOOL;
 use windows::Win32::System::Threading::{GetCurrentProcess, IsWow64Process};
